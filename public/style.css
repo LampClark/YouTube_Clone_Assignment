@@ -1,0 +1,36 @@
+body{
+    background: linear-gradient(90deg, rgb(203, 67, 10), rgb(80, 20, 0), rgb(49, 19, 0), rgb(57, 21, 0))
+}
+.header {
+    display: flex;
+    align-items: center;
+}
+
+.header #menu {
+    padding: 0 7px;
+    cursor: pointer;
+}
+.sidebar {
+    margin: 0;
+    padding: 0;
+    width: 150px;
+    /* background-color: rgb(175, 52, 0); */
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+}
+
+.sidebar a {
+    display: block;
+    color: rgb(0, 0, 0);
+    padding: 16px;
+    text-decoration: none;
+}
+.sidebar a.active {
+    background-color: #672600;
+    color: rgb(255, 55, 0);
+}
+.sidebar a:hover:not(.active) {
+    background-color: #6a2604;
+    color: rgb(246, 70, 1);
+}
