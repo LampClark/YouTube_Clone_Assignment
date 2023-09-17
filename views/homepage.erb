@@ -2,26 +2,356 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
-    <link rel="website icon" href="youtube.jpg">
-    <link rel="stylesheet" href="style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>YouTube</title>    
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="website icon" href="youtube.jpg">
+    <title>YouTube</title>
 </head>
 <body>
-    <div></div>
     <header class="header">
-        <i id="menu" class="material-icons">menu</i>
-        <img src="YouTube_header.png" height="40" width="130">
+        <div class="logo left">
+            <i id="menu" class="material-icons">menu</i>
+            <img src="YouTube_header.png" height="36" width="130">
+        </div>
+
+        <div class="search center">
+            <form action="">
+                <input type="text" placeholder="Search" />
+                <button><i class="material-icons">search</i></button>
+            </form>
+            <i class="material-icons mic">mic</i>
+        </div>
+
+        <div class="icons right">
+            <i class="material-icons">videocam</i>
+            <i class="material-icons">apps</i>
+            <i class="material-icons">notifications</i>
+            <i class="material-icons display-this">account_circle</i>
+        </div>
     </header>
-    <div class="sidebar">
-        <a class="active" href="home">Home</a>
-        <a href="shorts">Shorts</a>
-        <a href="random">Random Videos</a>
-        <a href="library">Library</a>
-    </div>
-    <div class="content">
-        
-    </div>
+    <main>
+        <div class="side-bar">
+            <div class="nav">
+                <a class="nav-link active">
+                    <i class="material-icons">home</i>
+                    <span>Home</span>
+                </a>
+                <a class="nav-link">
+                    <img src="short.png" height="27" width="27">
+                    <span>Shorts</span>
+                </a>
+                <a class="nav-link">
+                    <i class="material-icons">local_fire_department</i>
+                    <span>Trending</span>
+                </a>
+                <a class="nav-link">
+                    <i class="material-icons">subscriptions</i>
+                    <span>subscriptions</span>
+                </a>
+                <hr>
+                <a class="nav-link">
+                    <i class="material-icons">library_add_check</i>
+                    <span>Library</span>
+                </a>
+                <a class="nav-link">
+                    <i class="material-icons">history</i>
+                    <span>History</span>
+                 </a>
+                 <a class="nav-link">
+                    <i class="material-icons">play_arrow</i>
+                    <span>Your Videos</span>
+                 </a>
+                 <a class="nav-link">
+                    <i class="material-icons">watch_later</i>
+                    <span>Watch Later</span>
+                 </a>
+                 <a class="nav-link">
+                    <i class="material-icons">thumb_up</i>
+                    <span>Liked Videos</span>
+                 </a>
+            </div>
+        </div>
+        <div class="content">
+            <div class="videos">
+                  <div class="video">
+                     <div class="thumbnail">
+                        <img src="https://i.ytimg.com/vi/9TjfkXmwbTs/maxresdefault.jpg" alt="" />
+                      </div>
+              
+                        <div class="details">
+                           <div class="author">
+                              <img src="https://yt3.ggpht.com/ytc/AOPolaSw2QcdM21e4ed7TadTPZ76sT9gVJ9f3V9iYfc1vA=s68-c-k-c0x00ffffff-no-rj" alt="" />
+                           </div>
+                           <div class="title">
+                              <h3>
+                                  A Heist with Markiplier
+                               </h3>
+                               <a href="">
+                                      Markiplier
+                                </a>
+                                <span> 41M Views • 3 years ago </span>
+                           </div>
+                         </div>
+              
+                       </div>
+                       <div class="video">
+                        <div class="thumbnail">
+                           <img src="https://i.ytimg.com/vi/XriMhngC4xQ/maxresdefault.jpg" alt="" />
+                         </div>
+                 
+                           <div class="details">
+                              <div class="author">
+                                 <img src="https://yt3.googleusercontent.com/ytc/AOPolaR9FE8hggmNKxK7Gr2nUYPJHVGmSpw_zscwD5zvew=s176-c-k-c0x00ffffff-no-rj" alt="" />
+                              </div>
+                              <div class="title">
+                                 <h3>
+                                    Playing a game with R18 settings 
+                                  </h3>
+                                  <a href="">
+                                    Viva La Dirt League
+                                   </a>
+                                   <span> 41M Views • 10 months ago </span>
+                              </div>
+                            </div>
+                 
+                          </div>
+                          <div class="video">
+                            <div class="thumbnail">
+                               <img src="https://i.ytimg.com/vi/9Dy-KWjp-m0/maxresdefault.jpg" alt="" />
+                             </div>
+                     
+                               <div class="details">
+                                  <div class="author">
+                                     <img src="https://yt3.googleusercontent.com/ytc/AOPolaRyeQ2aAiu48iSQlk6QR69TISWGDgepTHrvsQRe=s176-c-k-c0x00ffffff-no-rj" alt="" />
+                                  </div>
+                                  <div class="title">
+                                     <h3>
+                                        The first Steam Decks have been delivered!
+                                      </h3>
+                                      <a href="">
+                                        Valve
+                                       </a>
+                                       <span> 1.9M Views • 1 year ago </span>
+                                  </div>
+                                </div>
+                     
+                              </div>
+                              <div class="video">
+                                <div class="thumbnail">
+                                   <img src="https://i.ytimg.com/vi/nLIp4wd0oXs/sddefault.jpg" alt="" />
+                                 </div>
+                         
+                                   <div class="details">
+                                      <div class="author">
+                                         <img src="https://yt3.googleusercontent.com/Vy6KL7EM_apxPSxF0pPy5w_c87YDTOlBQo3MADDF0Wl51kwxmt9wmRotnt2xQXwlrcyO0Xe56w=s176-c-k-c0x00ffffff-no-rj" alt="" />
+                                      </div>
+                                      <div class="title">
+                                         <h3>
+                                            This Makes Hacking TOO Easy - Flipper Zero
+                                          </h3>
+                                          <a href="">
+                                             Linus Tech Tips
+                                           </a>
+                                           <span> 4.7M Views • 5 Months Ago </span>
+                                      </div>
+                                    </div>
+                         
+                                  </div>
+                                  <div class="video">
+                                    <div class="thumbnail">
+                                       <img src="https://i.ytimg.com/vi/V-vGi3HRlTU/maxresdefault.jpg" alt="" />
+                                     </div>
+                             
+                                       <div class="details">
+                                          <div class="author">
+                                             <img src="https://yt3.googleusercontent.com/ytc/AOPolaT8vGm-2LsbCME4whX2RLt52CH8ILKyNC4UYGSkZg=s176-c-k-c0x00ffffff-no-rj" alt="" />
+                                          </div>
+                                          <div class="title">
+                                             <h3>
+                                                 Introverts & Content Creation | Sumudu Siriwardanad
+                                              </h3>
+                                              <a href="">
+                                                The Spiffing Brit
+                                               </a>
+                                               <span> 1.4M Views • 2 months ago </span>
+                                          </div>
+                                        </div>
+                             
+                                      </div>
+                                      <div class="video">
+                                        <div class="thumbnail">
+                                           <img src="https://i.ytimg.com/vi/BPrJKQ2HH28/maxresdefault.jpg" alt="" />
+                                         </div>
+                                 
+                                           <div class="details">
+                                              <div class="author">
+                                                 <img src="https://yt3.googleusercontent.com/SMHmQVpzLs0uL7728eQfYp4auW_-Gy5eWjF1knpd11TSu68Y_0C1RFzP8G_HzUL6wXSjwPvZ=s176-c-k-c0x00ffffff-no-rj" alt="" />
+                                              </div>
+                                              <div class="title">
+                                                 <h3>
+                                                    Linus Tech Tips Bought My Computer
+                                                  </h3>
+                                                  <a href="">
+                                                        Asmongold TV 
+                                                   </a>
+                                                   <span> 5.1M Views • 11 Months Ago </span>
+                                              </div>
+                                            </div>
+                                 
+                                          </div>
+                                          <div class="video">
+                                            <div class="thumbnail">
+                                               <img src="https://i.ytimg.com/vi/ZMQbHMgK2rw/maxresdefault.jpg" alt="" />
+                                             </div>
+                                     
+                                               <div class="details">
+                                                  <div class="author">
+                                                     <img src="https://yt3.googleusercontent.com/ytc/AOPolaTeHtkxl6aSpF7voXkGb7YY5UCCf2GEKQB0SyakQQ=s176-c-k-c0x00ffffff-no-rj" alt="" />
+                                                  </div>
+                                                  <div class="title">
+                                                     <h3>
+                                                         Introverts & Content Creation | Sumudu Siriwardana
+                                                      </h3>
+                                                      <a href="">
+                                                            Veritasium
+                                                       </a>
+                                                       <span> 12M Views • 3 Months Ago </span>
+                                                  </div>
+                                                </div>
+                                     
+                                              </div>
+                                              <div class="video">
+                                                <div class="thumbnail">
+                                                   <img src="https://i.ytimg.com/vi/B1J6Ou4q8vE/maxresdefault.jpg" alt="" />
+                                                 </div>
+                                         
+                                                   <div class="details">
+                                                      <div class="author">
+                                                         <img src="https://yt3.googleusercontent.com/ytc/AOPolaTjhMx__R3JHuQHwsLYhRV76ipKhWUfNf3WXDbNJg=s176-c-k-c0x00ffffff-no-rj" alt="" />
+                                                      </div>
+                                                      <div class="title">
+                                                         <h3>
+                                                            Animation vs. Math
+                                                          </h3>
+                                                          <a href="">
+                                                                Alan Becker
+                                                           </a>
+                                                           <span> 32M Views • 2 Months Ago </span>
+                                                      </div>
+                                                    </div>
+                                         
+                                                  </div>
+                                                  <div class="video">
+                                                    <div class="thumbnail">
+                                                       <img src="https://i.ytimg.com/vi/7r83N3c2kPw/maxresdefault.jpg" alt="" />
+                                                     </div>
+                                             
+                                                       <div class="details">
+                                                          <div class="author">
+                                                             <img src="https://yt3.googleusercontent.com/99wepc_FTSN0n_GbR-FlFANyxed7TsbE8WxKIDWftdxssZlYo1-gW1CRD7cPgOzThMM8m4W8=s176-c-k-c0x00ffffff-no-rj" alt="" />
+                                                          </div>
+                                                          <div class="title">
+                                                             <h3>
+                                                                what was coding like 40 years ago
+                                                              </h3>
+                                                              <a href="">
+                                                                    The Coding Train
+                                                               </a>
+                                                               <span> 1.4M Views • 1 year ago </span>
+                                                          </div>
+                                                        </div>
+                                             
+                                                      </div>
+                 <div class="shorts">
+                    <img src="shorts.png" height="25" width="22">
+                    <h2>Shorts</h2>
+                    <div class="shorts-videos">
+                        <!-- Add your Shorts video elements here -->
+                        <div class="short-video">
+                            <div class="thumbnail">
+                                <img src="https://i.ytimg.com/vi/6aRD4Dc4jEM/oar2.jpg" alt="Shorts Video Thumbnail" />
+                            </div>
+                                <div class="title">
+                                    <h3>"Don't look at it #self-produced anime </h3>
+                                </div>
+                                <div class="views">
+                                    <span>5M views</span>
+                                </div>
+                            </div>
+                            <div class="short-video">
+                                <div class="thumbnail">
+                                    <img src="https://i.ytimg.com/vi/J1l7JCEP1tQ/oar2.jpg?sqp=-oaymwEaCJUDENAFSFXyq4qpAwwIARUAAIhCcAHAAQY=&rs=AOn4CLB6j4CF6-6bSWps7Df0gvOzI-STfQ" alt="Shorts Video Thumbnail" />
+                                </div>
+                                    <div class="title">
+                                        <h3>"One day I picked up an orphan #self-produced anime</h3>
+                                    </div>
+                                    <div class="views">
+                                        <span>25M views</span>
+                                    </div>
+                                </div>
+                                <div class="short-video">
+                                    <div class="thumbnail">
+                                        <img src="https://i.ytimg.com/vi/jKS8Wr5snH8/oar2.jpg?sqp=-oaymwEaCJUDENAFSFXyq4qpAwwIARUAAIhCcAHAAQY=&rs=AOn4CLBuVZn7349g7mHs08BW5wKJdXqnWA" alt="Shorts Video Thumbnail" />
+                                    </div>
+                                        <div class="title">
+                                            <h3>"Gabe Newell calls himself G-FAT</h3>
+                                        </div>
+                                        <div class="views">
+                                            <span>172k views</span>
+                                        </div>
+                                    </div>
+                                    <div class="short-video">
+                                        <div class="thumbnail">
+                                            <img src="https://i.ytimg.com/vi/nQLXtTb9SS8/hq720.jpg?sqp=-oaymwEdCJUDENAFSFXyq4qpAw8IARUAAIhCcAHAAQbQAQE=&rs=AOn4CLAakc6XAPqMoZvIBZK_nIPyQ0Sztw" alt="Shorts Video Thumbnail" />
+                                        </div>
+                                            <div class="title">
+                                                <h3>"Psychopath vs. Therapist</h3>
+                                            </div>
+                                            <div class="views">
+                                                <span>323k views</span>
+                                            </div>
+                                        </div>
+                                        <div class="short-video">
+                                            <div class="thumbnail">
+                                                <img src="https://i.ytimg.com/vi/ZB6sMRY7liM/oar2.jpg?sqp=-oaymwEaCJUDENAFSFXyq4qpAwwIARUAAIhCcAHAAQY=&rs=AOn4CLCs_CDS5iSh6WAozW2s-E_3POboBg" alt="Shorts Video Thumbnail" />
+                                            </div>
+                                                <div class="title">
+                                                    <h3>"Trying to outrun Sadako in Dead By Daylight Mobile #shorts</h3>
+                                                </div>
+                                                <div class="views">
+                                                    <span>1.4M views</span>
+                                                </div>
+                                            </div>
+                                            <div class="short-video">
+                                                <div class="thumbnail">
+                                                    <img src="https://i.ytimg.com/vi/psW70MxBC3k/oar2.jpg?sqp=-oaymwEaCJUDENAFSFXyq4qpAwwIARUAAIhCcAHAAQY=&rs=AOn4CLDnzIbJZTvBZ-J6tNKlbmH0dVn8mw" alt="Shorts Video Thumbnail" />
+                                                </div>
+                                                    <div class="title">
+                                                        <h3>"Give me some credit here.... #shorts</h3>
+                                                    </div>
+                                                    <div class="views">
+                                                        <span>1.8M views</span>
+                                                    </div>
+                                                </div>
+                                                <div class="short-video">
+                                                    <div class="thumbnail">
+                                                        <img src="https://i.ytimg.com/vi/VKZ6B2z7EEI/hq720.jpg?sqp=-oaymwEdCJUDENAFSFXyq4qpAw8IARUAAIhCcAHAAQbQAQE=&rs=AOn4CLBDZPAa6F2FkPx7PZQFPJI5DeX6Yg" alt="Shorts Video Thumbnail" />
+                                                    </div>
+                                                        <div class="title">
+                                                            <h3>"Double Vision</h3>
+                                                        </div>
+                                                        <div class="views">
+                                                            <span>9.9M views</span>
+                                                        </div>
+                                                    </div>
+                        </div>
+                    </div>
+                </div>
+                
+                </div>
+            </div>
+        </div>
+    </main>
 </body>
 </html>
